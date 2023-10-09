@@ -32,11 +32,14 @@ Il secondo file riceverà la richiesta ed eseguirà queste operazioni:
     <form action="script.php" method="GET">
 
         <div class="form-floating">
-            <textarea class="form-control w-50 mb-3" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
-            <label for="floatingTextarea2">Comments</label>
+
+            <textarea class="form-control w-50 mb-3" name="paragraph" id="paragraph" placeholder="Leave a comment here" style="height: 100px">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla ullam suscipit quisquam minus magnam nesciunt, odit explicabo reiciendis quaerat inventore consectetur minima aut dolorem accusantium praesentium! Minima recusandae nesciunt ab.</textarea>
+            
+            <label for="paragraph">Type your text here...</label>
+
         </div>
 
-        <input class="form-control w-50 mb-3" type="text" name="randomwords" id="randomwords" placeholder="Type here your text...">
+        <input class="form-control w-50 mb-3" type="text" name="randomwords" id="randomwords" placeholder="Type your text here...">
         
         <button type="submit">Invia</button>
 
