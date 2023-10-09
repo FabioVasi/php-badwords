@@ -16,8 +16,6 @@ Il secondo file riceverà la richiesta ed eseguirà queste operazioni:
 - stampare di nuovo il paragrafo e la sua lunghezza, dopo aver sostituito con tre asterischi (***) tutte le occorrenze della parola da censurare
 */
 
-    var_dump($_POST);
-
 ?>
 <!DOCTYPE html>
 <html lang="en">

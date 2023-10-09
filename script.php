@@ -1,7 +1,5 @@
 <?php
 
-    var_dump($_POST);
-
     $badWords = $_POST["randomwords"];
 
     $paragraph = $_POST["paragraph"];
