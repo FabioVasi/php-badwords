@@ -14,6 +14,7 @@
 <body>
 
     <h1><?php echo $_GET["randomwords"] ?></h1>
+    <h2><?php echo $_GET["paragraph"] ?></h2>
     
 </body>
 </html>
