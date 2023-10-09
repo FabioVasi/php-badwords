@@ -1,3 +1,8 @@
+<?php
+
+    var_dump($_GET);
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,5 +12,12 @@
 </head>
 <body>
     
+    <form action="script.php" method="GET">
+
+    <input type="text" name="randomwords" id="randomwords" placeholder="Type here your text...">
+    <button type="submit">Invia</button>
+
+    </form>
+
 </body>
 </html>
