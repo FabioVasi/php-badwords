@@ -3,9 +3,12 @@
     var_dump($_POST);
 
     $badWords = $_POST["randomwords"];
+
     $paragraph = $_POST["paragraph"];
 
-    
+    $length = strlen($paragraph);
+
+    $censure = str_replace($badWords, '***', $paragraph);
 
 ?>
 
@@ -19,6 +22,10 @@
 <body>
 
     <h2><?php echo $badWords ?> <?php echo $paragraph ?></h2>
+
+    <p>Paragraph length: <?php echo $length ?></p>
+
+    <h3><?php echo $censure ?></h3>
     
 </body>
 </html>
