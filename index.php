@@ -17,6 +17,7 @@ Il secondo file riceverà la richiesta ed eseguirà queste operazioni:
 */
 
     var_dump($_GET);
+    var_dump($_POST);
 
 ?>
 <!DOCTYPE html>
