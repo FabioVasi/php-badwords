@@ -16,7 +16,6 @@ Il secondo file riceverà la richiesta ed eseguirà queste operazioni:
 - stampare di nuovo il paragrafo e la sua lunghezza, dopo aver sostituito con tre asterischi (***) tutte le occorrenze della parola da censurare
 */
 
-    var_dump($_GET);
     var_dump($_POST);
 
 ?>
@@ -30,11 +29,13 @@ Il secondo file riceverà la richiesta ed eseguirà queste operazioni:
 </head>
 <body class="m-2">
     
-    <form action="script.php" method="GET POST">
+    <form action="script.php" method="POST">
 
         <div class="form-floating">
 
-            <textarea class="form-control w-50 mb-3" name="paragraph" id="paragraph" placeholder="Leave a comment here" style="height: 100px">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla ullam suscipit quisquam minus magnam nesciunt, odit explicabo reiciendis quaerat inventore consectetur minima aut dolorem accusantium praesentium! Minima recusandae nesciunt ab.</textarea>
+            <textarea class="form-control w-50 mb-3" name="paragraph" id="paragraph" placeholder="Leave a comment here" style="height: 100px">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla ullam suscipit quisquam minus magnam nesciunt, odit explicabo reiciendis quaerat inventore consectetur minima aut dolorem accusantium praesentium! Minima recusandae nesciunt ab.
+            </textarea>
             
             <label for="paragraph">Type your text here...</label>
 

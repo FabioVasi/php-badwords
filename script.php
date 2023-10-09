@@ -1,10 +1,11 @@
 <?php
 
-    var_dump($_GET);
     var_dump($_POST);
 
     $badWords = $_POST["randomwords"];
     $paragraph = $_POST["paragraph"];
+
+    
 
 ?>
 
@@ -17,13 +18,7 @@
 </head>
 <body>
 
-    <h1><?php echo $_GET["randomwords"] ?></h1>
-
-    <h2><?php echo $_GET["paragraph"] ?></h2>
-
-    <h3><?php echo $badWords ?> <?php echo $paragraph ?></h3>
-
-
+    <h2><?php echo $badWords ?> <?php echo $paragraph ?></h2>
     
 </body>
 </html>
