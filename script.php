@@ -21,9 +21,11 @@
 </head>
 <body>
 
-    <h2><?php echo $badWords ?> <?php echo $paragraph ?></h2>
+    <h2><?php echo $paragraph ?></h2>.
 
     <p>Paragraph length: <?php echo $length ?></p>
+
+    <h2>Word to be censured: <?php echo $badWords ?></h2>
 
     <h3><?php echo $censure ?></h3>
     
