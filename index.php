@@ -29,7 +29,7 @@ Il secondo file riceverà la richiesta ed eseguirà queste operazioni:
 </head>
 <body class="m-2">
     
-    <form action="script.php" method="GET">
+    <form action="script.php" method="GET POST">
 
         <div class="form-floating">
 
